@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./assets/fonts/dmsans/dmsans.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/a478469ca1.js" crossorigin="anonymous"></script>
+    <title>PRE-ENTREGA #2 | CARONTE</title>
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- Encabezado -->
+        <header class="layout__header">
+            <nav class="header__navbar--content">
+                <div class="content__navbar--tittle">
+                    <h1 class="navbar__tittle">PRE-ENTREGA #2 | CARONTE</h1>
+                </div>
+
+                <div class="content__navbar--login">
+                    <a class="navbar__login--btn" href="">Iniciar sesion</a>
+                    <i id="navbar__shopping--logo" class="navbar__shopping--logo fa-solid fa-cart-shopping"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Usuario -->
+        <section class="layout__user">
+            <form class="user__login">
+                <div class="login__container--tittle">
+                    <h3 class="login__tittle">
+                        <span class="tittle__span">Identificate</span>
+                    </h3>
+                </div>
+
+                <section class="login__content--form">
+                    <div class="login__form">
+                        <label class="login__label" for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" class="login__input" required>
+                    </div>
+
+                    <div class="login__form">
+                        <label class="login__label" for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="login__input" required>
+                    </div>
+
+                    <div class="login__form">
+                        <label class="login__label" for="pass">Contraseña:</label>
+                        <input type="password" id="pass" name="pass" class="login__input" required>
+                    </div>
+                </section>
+
+                <input type="submit" value="Entrar" class="login__submit" />
+
+
+            </form>
+
+            <div class="user__data user__data--hide">
+                <p class="data__text">
+                    Bienvenido <span class="data__name"></span>
+                </p>
+                <a class="data__logout">Cerrar sesion</a>
+            </div>
+
+        </section>
+
+
+
+
+        <!-- Modal -->
+        <section class="modal__carrito">
+            <main class="modal__carrito--menu">
+                <header class="modal__header">
+                    <h3 class="modal__subtitle">Carrito de compras</h3>
+                    <button id="modal__btn--close" class="modal__btn--close"> X </button>
+                </header>
+                <div class="margin__carrito">
+                    <ul id="carrito__menu--list" class="carrito__menu--list">
+                        <!-- Se llenara con HTML -->
+
+                    </ul>
+                </div>
+                <footer class="modal__carrito--footer"></footer>
+            </main>
+        </section>
+
+        <!-- Menu -->
+        <main class="layout__menu">
+            <div class="layout__margin">
+                <header class="menu__header">
+                    <h3 class="menu__header--subtitle">Selecciona tu auto preferido</h3>
+                </header>
+
+                <section id="menu__items" class="menu__items">
+                    <!-- Se llenara con HTML -->
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p class="footer__description">Todos los derechos reservados</p>
+        </footer>
+
+    </div>
+    <script src="./assets/js/productos.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
