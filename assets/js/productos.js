@@ -1,10 +1,9 @@
-const productos = [
+const products = [
     //FABRICATOR: AMERICANO 
     //BRAND: CHEVROLET
     {
         img_url: "./assets/img/americano/chevrolet-camaro.jpg",
-        title: "chevrolet camaro",
-        brand: "chevrolet",
+        title: "chevrolet",
         model: "camaro",
         fabricator:"americano",
         price: 24500,
@@ -15,8 +14,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/chevrolet-cruze.jpg",
-        title: "chevrolet cruze",
-        brand: "chevrolet",
+        title: "chevrolet",
         model: "cruze",
         fabricator:"americano",
         price: 22500,
@@ -27,8 +25,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/chevrolet-montana.jpg",
-        title:"chevrolet montana",
-        brand: "chevrolet",
+        title:"chevrolet",
         model: "montana",
         fabricator:"americano",
         price: 28000,
@@ -39,8 +36,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/chevrolet-onix.jpg",
-        title:"chevrolet onix",
-        brand: "chevrolet",
+        title:"chevrolet",
         model: "onix",
         fabricator:"americano",
         price: 22000,
@@ -51,9 +47,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/chevrolet-traket.jpg",
-        title:"chevrolet montana",
-        title:"chevrolet traker",
-        brand: "chevrolet",
+        title:"chevrolet",
         model: "traket",
         fabricator:"americano",
         price: 24000,
@@ -66,8 +60,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/ford-fiesta.jpg",
-        title:"ford fiesta",
-        brand: "ford",
+        title:"ford",
         model: "fiesta",
         fabricator:"americano",
         price: 27200,
@@ -78,8 +71,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/ford-mustang-vapor.jpg",
-        title:"ford mustang",
-        brand: "ford",
+        title:"ford",
         model: "mustang",
         fabricator:"americano",
         price: 30500,
@@ -90,8 +82,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/ford-raptor.jpg",
-        title:"ford raptor",
-        brand: "ford",
+        title:"fordr",
         model: "raptor",
         fabricator:"americano",
         price: 37800,
@@ -102,9 +93,8 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/ford-tremor.jpg",
-        title:"ford tremin",
-        brand: "ford",
-        modl: "tremor",
+        title:"ford",
+        model: "tremor",
         fabricator:"americano",
         price: 36300,
         cantidad: 1,
@@ -114,8 +104,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/ford-territori.jpg",
-        title:"ford territori",
-        brand: "ford",
+        title:"ford",
         model: "territori",
         fabricator:"americano",
         price: 36900,
@@ -128,8 +117,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/gmc-cierra.jpg",
-        title: "gmc cierra",
-        brand: "gmc",
+        title: "gmc",
         model: "cierra",
         fabricator:"americano",
         price: 38500,
@@ -140,8 +128,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/gmc-denali.jpg",
-        title: "gmc denali",
-        brand: "gmc",
+        title: "gmc",
         model: "denali",
         fabricator:"americano",
         price: 37900,
@@ -152,8 +139,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/gmc-terranova.jpg",
-        title: "gmc terranova",
-        brand: "gmc",
+        title: "gmc",
         model: "terranova",
         fabricator:"americano",
         price: 40900,
@@ -164,8 +150,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/gmc-terrain.jpg",
-        title: "gmc terrain",
-        brand: "gmc",
+        title: "gmc",
         model: "terrain",
         fabricator:"americano",
         price: 34500,
@@ -176,7 +161,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/gmc-yukon.jpg",
-        title: "gmc yukon",
+        title: "gmc",
         brand: "gmc",
         model: "yukon",
         fabricator:"americano",
@@ -190,8 +175,7 @@ const productos = [
     
     {
         img_url: "./assets/img/americano/tesla-model-z.jpg",
-        title: "tesla model-z",
-        brand: "tesla",
+        title: "tesla",
         model: "model-z",
         fabricator:"americano",
         price: 31700,
@@ -202,8 +186,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/tesla-model-e.jpg",
-        title: "tesla model-e",
-        brand: "tesla",
+        title: "tesla",
         model: "model-e",
         fabricator:"americano",
         price: 34200,
@@ -214,8 +197,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/tesla-model-s.jpg",
-        title: "tesla model-s",
-        brand: "tesla",
+        title: "tesla",
         model: "model-s",
         fabricator:"americano",
         price: 32000,
@@ -226,8 +208,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/tesla-model-x.jpg",
-        title: "tesla model-x",
-        brand: "tesla",
+        title: "tesla",
         model: "model-x",
         fabricator:"americano",
         price: 34,
@@ -239,8 +220,7 @@ const productos = [
 
     {
         img_url: "./assets/img/americano/tesla-model-y.jpg" ,
-        title: "tesla model-y",
-        brand: "tesla",
+        title: "tesla",
         model: "model-y",
         fabricator:"americano",
         price: 32600,
@@ -254,8 +234,7 @@ const productos = [
 
     {
         img_url: "./assets/img/europeo/audi-a3.jpg",
-        title: "audi model-a3",
-        brand: "audi",
+        title: "audi",
         model: "model-a3",
         fabricator:"europeo",
         price: 32600,
@@ -266,8 +245,7 @@ const productos = [
 
     {
         img_url: "./assets/img/europeo/audi-q8.jpg",
-        title: "audi model-q8",
-        brand: "audi",
+        title: "audi",
         model: "model-q8",
         fabricator:"europeo",
         price: 34200,
@@ -278,8 +256,8 @@ const productos = [
 
     {
         img_url: "./assets/img/europeo/audi-rs.jpg",
-        title: "audi model-rs",
-        brand: "audi",
+        title: "audi",
+
         model: "model-rs",
         fabricator:"europeo",
         price: 34300,
@@ -290,8 +268,7 @@ const productos = [
 
     {
         img_url: "./assets/img/europeo/audi-tt.jpg",
-        title: "audi model-tt",
-        brand: "audi",
+        title: "audi",
         model: "model-tt",
         fabricator:"europeo",
         price: 38900,
@@ -303,8 +280,7 @@ const productos = [
     
     {
         img_url: "./assets/img/europeo/audi-r8.jpg",
-        title: "audi model-r8",
-        brand: "audi",
+        title: "audi",
         model: "r8",
         fabricator:"europeo",
         price: 36800,
@@ -317,8 +293,7 @@ const productos = [
 
     {
         img_url: "./assets/img/europeo/bmw-x5.jpg",
-        title: "bmw x5",
-        brand: "bmw",
+        title: "bmw",
         model: "bmw-x5",
         fabricator:"europeo",
         price: 35400,
@@ -329,8 +304,7 @@ const productos = [
     
     {
         img_url: "./assets/img/europeo/bmw-x7.jpg",
-        title: "bmw x7",
-        brand: "bmw",
+        title: "bmw",
         model: "bmw-x7",
         fabricator:"europeo",
         price: 38100,
@@ -342,8 +316,7 @@ const productos = [
         
     {
         img_url: "./assets/img/europeo/bmw-m3.jpg",
-        title: "bmw m3",
-        brand: "bmw",
+        title: "bmw",
         model: "bmw-m3",
         fabricator:"europeo",
         price: 36300,
@@ -354,8 +327,7 @@ const productos = [
 
     {
         img_url: "./assets/img/europeo/bmw-x3.jpg",
-        title: "bmw x3",
-        brand: "bmw",
+        title: "bmw",
         model: "bmw-x3",
         fabricator:"europeo",
         price: 36300,
@@ -368,8 +340,7 @@ const productos = [
 
     {
         img_url: "./assets/img/europeo/mercedes-benz-glc.jpg",
-        title: "mercedes-benz glc",
-        brand: "mercedes-benz",
+        title: "mercedes-benz",
         model: "glc",
         fabricator:"europeo",
         price: 41200,
@@ -380,7 +351,7 @@ const productos = [
 
     {
         img_url: "./assets/img/europeo/mercedes-benz-c400.jpg",
-        title: "mercedes-benz c400",
+        title: "mercedes-benz",
         model: "c400",
         fabricator:"europeo",
         price: 44400,
@@ -391,8 +362,7 @@ const productos = [
 
     {
         img_url: "./assets/img/europeo/mercedes-benz-eclass.jpg",
-        title: "mercedes-benz eclass",
-        brand: "mercedes-benz",
+        title: "mercedes-benz",
         model: "c400",
         fabricator:"europeo",
         price: 62200,
@@ -403,8 +373,7 @@ const productos = [
 
     {
         img_url: "./assets/img/europeo/mercedes-benz-g63.jpg",
-        title: "mercedes-benz g63",
-        brand: "mercedes-benz",
+        title: "mercedes-benz",
         model: "g63",
         fabricator:"europeo",
         price: 85200,
@@ -415,8 +384,7 @@ const productos = [
 
     {
         img_url:"./assets/img/europeo/mercedes-benz-glc.jpg",
-        title: "mercedes-benz glc",
-        brand: "mercedes-benz",
+        title: "mercedes-benz",
         model: "glc",
         fabricator:"europeo",
         price: 74200,
@@ -429,8 +397,7 @@ const productos = [
 
     {
         img_url:"./assets/img/europeo/range-rover-defender.jpg",
-        title: "range rover defender",
-        brand: "range-rover",
+        title: "range rover",
         model: "defender",
         fabricator:"europeo",
         price: 64200,
@@ -441,8 +408,7 @@ const productos = [
 
     {
         img_url:"./assets/img/europeo/range-rover-evoque.jpg",
-        title: "range rover evoque",
-        brand: "range-rover",
+        title: "range rover",
         model: "evoque",
         fabricator:"europeo",
         price: 61200,
@@ -453,8 +419,7 @@ const productos = [
 
     {
         img_url:"./assets/img/europeo/range-rover-ranger.jpg",
-        title: "range rover ranger",
-        brand: "range-rover",
+        title: "range rover",
         model: "ranger",
         fabricator:"europeo",
         price: 63700,
@@ -465,8 +430,7 @@ const productos = [
 
     {
         img_url:"./assets/img/europeo/range-rover-roque.jpg",
-        title: "range rover roque",
-        brand: "range-rover",
+        title: "range rover",
         model: "roque",
         fabricator:"europeo",
         price: 60200,
@@ -477,8 +441,7 @@ const productos = [
 
     {
         img_url:"./assets/img/europeo/range-rover-crossover.jpg",
-        title: "range rover crossver",
-        brand: "range-rover",
+        title: "range rover",
         model: "roque",
         fabricator:"crossover",
         price: 65100,
@@ -493,8 +456,7 @@ const productos = [
     
     {
         img_url:"./assets/img/japon/genesis-g70.jpg",
-        title: "genesis g70",
-        brand: "genesis",
+        title: "genesis",
         model: "g-70",
         fabricator:"japon",
         price: 53100,
@@ -505,8 +467,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/genesis-g60.jpg",
-        title: "genesis g60",
-        brand: "genesis",
+        title: "genesis",
         model: "g-60",
         fabricator:"japon",
         price: 52800,
@@ -517,8 +478,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/genesis-gv70.jpg",
-        title: "genesis gv70",
-        brand: "genesis",
+        title: "genesis",
         model: "g-v70",
         fabricator:"japon",
         price: 54800,
@@ -529,8 +489,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/genesis-gv60.jpg",
-        title: "genesis g60",
-        brand: "genesis",
+        title: "genesis",
         model: "g-v60",
         fabricator:"japon",
         price: 54600,
@@ -541,8 +500,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/genesis-gv80.jpg",
-        title: "genesis g80",
-        brand: "genesis",
+        title: "genesis",
         model: "g-v80",
         fabricator:"japon",
         price: 57700,
@@ -555,8 +513,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/honda-passport.jpg",
-        title: "honda passport",
-        brand: "honda",
+        title: "honda",
         model: "passport",
         fabricator:"japon",
         price: 42200,
@@ -568,8 +525,7 @@ const productos = [
     
     {
         img_url:"./assets/img/japon/honda-pilot.jpg",
-        title: "honda pilot",
-        brand: "honda",
+        title: "honda",
         model: "pilot",
         fabricator:"japon",
         price: 46500,
@@ -580,8 +536,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/honda-crv.jpg",
-        title: "honda crv",
-        brand: "honda",
+        title: "honda",
         model: "crv",
         fabricator:"japon",
         price: 37500,
@@ -592,8 +547,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/honda-accord.jpg",
-        title: "honda accord",
-        brand: "honda",
+        title: "honda",
         model: "accord",
         fabricator:"japon",
         price: 36400,
@@ -604,8 +558,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/honda-civic.jpg",
-        title: "honda civic",
-        brand: "honda",
+        title: "honda",
         model: "civic",
         fabricator:"japon",
         price: 34400,
@@ -618,8 +571,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/mitsubishi-outlander-sport.jpg",
-        title: "mitsubishi outlander-sport",
-        brand: "mitsubishi",
+        title: "mitsubishi",
         model: "outlander-sport",
         fabricator:"japon",
         price: 37600,
@@ -630,8 +582,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/mitsubishi-mirage.jpg",
-        title: "mitsubishi mirage",
-        brand: "mitsubishi",
+        title: "mitsubishi",
         model: "mirage",
         fabricator:"japon",
         price: 33900,
@@ -642,8 +593,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/mitsubishi-eclipce-cross.jpg",
-        title: "mitsubishi eclipce",
-        brand: "mitsubishi",
+        title: "mitsubishi",
         model: "eclipce",
         fabricator:"japon",
         price: 31900,
@@ -654,8 +604,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/mitsubishi-triton.jpg",
-        title: "mitsubishi triton",
-        brand: "mitsubishi",
+        title: "mitsubishi",
         model: "triton",
         fabricator:"japon",
         price: 34500,
@@ -666,8 +615,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/mitsubishi-outlander.jpg",
-        title: "mitsubishi outlander",
-        brand: "mitsubishi",
+        title: "mitsubishi",
         model: "outlander",
         fabricator:"japon",
         price: 32500,
@@ -680,8 +628,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/toyota-hilux.jpg",
-        title: "toyota hilux",
-        brand: "toyota",
+        title: "toyota",
         model: "hilux",
         fabricator:"japon",
         price: 37500,
@@ -692,8 +639,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/toyota-tacoma.jpg",
-        title: "toyota tacoma",
-        brand: "toyota",
+        title: "toyota",
         model: "tacoma",
         fabricator:"japon",
         price: 38500,
@@ -704,8 +650,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/toyota-tundra.jpg",
-        title: "toyota tundra",
-        brand: "toyota",
+        title: "toyota",
         model: "tundra",
         fabricator:"japon",
         price: 42500,
@@ -716,8 +661,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/toyota-camrry.jpg",
-        title: "toyota camrry",
-        brand: "toyota",
+        title: "toyota",
         model: "camrry",
         fabricator:"japon",
         price: 34000,
@@ -728,8 +672,7 @@ const productos = [
 
     {
         img_url:"./assets/img/japon/toyota-corolla.jpg",
-        title: "toyota corolla",
-        brand: "toyota",
+        title: "toyota",
         model: "corolla",
         fabricator:"japon",
         price: 32000,
