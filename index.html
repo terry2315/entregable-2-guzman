@@ -25,7 +25,10 @@
 
                 <div class="content__navbar--login">
                     <a class="navbar__login--btn" href="">Iniciar sesion</a>
-                    <i id="navbar__shopping--logo" class="navbar__shopping--logo fa-solid fa-cart-shopping"></i>
+                    <div>
+                        <i id="navbar__shopping--logo" class="navbar__shopping--logo fa-solid fa-cart-shopping"></i>
+                        <span id="navbar__shopping--ammount" class="navbar__shopping--ammount">0</span>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -42,17 +45,17 @@
                 <section class="login__content--form">
                     <div class="login__form">
                         <label class="login__label" for="name">Nombre:</label>
-                        <input type="text" id="name" name="name" class="login__input" required>
+                        <input type="text" id="name" name="name" class="login__input" />
                     </div>
 
                     <div class="login__form">
                         <label class="login__label" for="email">Email:</label>
-                        <input type="email" id="email" name="email" class="login__input" required>
+                        <input type="email" id="email" name="email" class="login__input" />
                     </div>
 
                     <div class="login__form">
                         <label class="login__label" for="pass">Contraseña:</label>
-                        <input type="password" id="pass" name="pass" class="login__input" required>
+                        <input type="password" id="pass" name="pass" class="login__input" />
                     </div>
                 </section>
 
@@ -86,7 +89,12 @@
 
                     </ul>
                 </div>
-                <footer class="modal__carrito--footer"></footer>
+                <footer class="modal__carrito--footer">
+                    <div class="carrito__footer--content">
+                        <button id="carrito__footer--empty" class="carrito__footer--empty">Vaciar</button>
+                        <h4 id="carrito__footer--total" class="carrito__footer--total">$0</h4>
+                    </div>
+                </footer>
             </main>
         </section>
 
@@ -98,7 +106,7 @@
                 </header>
 
                 <section id="menu__items" class="menu__items">
-                    <!-- Se llenara con HTML -->
+                    <!-- El menu se llenara con JAvaScript -->
                 </section>
             </div>
         </main>
